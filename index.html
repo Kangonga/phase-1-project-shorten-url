@@ -8,6 +8,10 @@
     <script src="./assets/index.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="mainContainer">
@@ -23,17 +27,18 @@
         </div>
 
         <div class="search">
-            <div class="link"><span class="material-symbols-outlined">search</span><input type="text" placeholder="enter your link here"></div>
+            <div class="link"><input type="text" placeholder="enter your link here"></div>
             <div class="buttons">
             <button class="custom">Custom</button>
             <button class="random">Random</button>
             <button class="go">Search</button>
+            <!-- <span class="material-symbols-outlined">search</span> -->
             </div>
         </div>
         
         <div class="results">
             <h4>Here is the shortened link</h4>
-            <div class="shortened"></div>
+            <input type="text" class="short">
         </div>
 
         <div class="rating">
@@ -87,7 +92,7 @@
         <div class="commentSection">
         <div class="comments">
             <h4>Please tell us why:</h4>
-            <textarea type="text" class="textarea"></textarea>
+            <textarea type="text" class="textarea" rows="2" cols="40"></textarea>
         </div>
         <div class="previousComments">
             <h4>Previous Comments</h4>
