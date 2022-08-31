@@ -59,13 +59,16 @@ The spa runs on the browser thus there are no prerequisite installations
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+##Demo
+https://kangonga.github.io/shorten-url/
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+##Authors
+Kevin Guchu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
