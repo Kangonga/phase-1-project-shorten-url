@@ -62,21 +62,3 @@ console.log(data)
 shortened.value="gotiny.cc/"+data[0].code
 }))}
 document.querySelector('.submit').addEventListener('click',e=>e.preventDefault())
-function fetchRandom(){
-    
-return(
-    fetch("https://gotiny.cc/api",
-            {
-                method:'POST',
-                headers:{
-                    "Content-Type": "application/json" 
-                },
-                body:JSON.stringify({
-                    input:long.value,
-                })
-            })
-.then(resp=>resp.json())
-.then(data=>{
-console.log(data)
-shortened.value="gotiny.cc/"+data[0].code
-        }))}
