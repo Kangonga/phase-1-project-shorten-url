@@ -38,7 +38,6 @@ submit.addEventListener('submit',(event)=>{
 })
 
 
-
 //callback functions
 function hideInput(){
     document.querySelector('#customText').style.display = 'none';
