@@ -62,6 +62,5 @@ shortened.value="gotiny.cc/"+data[0].code
 })
 .catch(err=>{
     shortened.value="An error occured. Please refresh or enter a valid link"}
-
 ))}
 document.querySelector('.submit').addEventListener('click',e=>e.preventDefault())
