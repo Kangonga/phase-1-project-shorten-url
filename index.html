@@ -16,7 +16,7 @@
 <body>
     <div class="mainContainer">
         <div class="navbar">
-            <div class="title">URL shortener</div>
+            <div class="title">URL SHORTENER</div>
             <div>Home</div>
             <div>Search</div>
             <div>Comments</div>
@@ -27,10 +27,11 @@
         </div>
 
         <div class="search">
-            <div class="link"><input type="text" placeholder="enter your link here"></div>
+            <div class="link"><input class="long" type="text" placeholder="enter your link here. Defaults to random"></div>
             <div class="buttons">
             <button class="custom">Custom</button>
             <button class="random">Random</button>
+            <input type="text" id="customText">
             <button class="go">Search</button>
             <!-- <span class="material-symbols-outlined">search</span> -->
             </div>
@@ -92,11 +93,12 @@
         <div class="commentSection">
         <div class="comments">
             <h4>Please tell us why:</h4>
-            <textarea type="text" class="textarea" rows="2" cols="40"></textarea>
+            <textarea type="text" class="textarea" rows="3" cols="40"></textarea>
+            <input class='submit' type="submit">
         </div>
         <div class="previousComments">
             <h4>Previous Comments</h4>
-            <div></div>
+            <div class="appendComment"></div>
         </div>
         </div>
         </div>

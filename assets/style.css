@@ -21,7 +21,7 @@ body{
 }
 .mid{
     background-color: wheat;
-    height: 75vh;
+    height: 80vh;
 }
 .navbar{
     width: 100%;
@@ -30,7 +30,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
-    height: 15vh;
+    height: 10vh;
     margin-bottom: 1rem;
     background-color: rgb(167, 162, 162);
     font-size: 1rem;
@@ -40,7 +40,7 @@ body{
     cursor: pointer;
 }
 .title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Kalam', sans-serif;
 }
 
@@ -85,6 +85,20 @@ body{
 }
 .buttons button{
     border: 2px solid gray;
+    border-radius: 25px;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+}
+#customText{
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+}
+input[type='submit']{
+  border: 2px solid gray;
     border-radius: 25px;
     width: 8rem;
     height: 2rem;
@@ -181,10 +195,12 @@ svg {
     }
   }
 .rating{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
   .comments{
     width: 40%;
+    display:flex;
+    flex-direction:column;
    
   }
 
@@ -195,4 +211,19 @@ svg {
   }
   .previousComments{
     width: 40%;
+  }
+
+  .hide {
+    display: none;
+  }
+  button:active, input[type='submit']:active {
+    background-color: #00ff6c;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+  }
+  .selected{
+    background-color: gray;
+  }
+  input[type='text']{
+    font-size: 1rem;
   }
