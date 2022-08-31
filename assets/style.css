@@ -16,12 +16,12 @@ body{
     padding: 2rem;
     background-color: white;
     margin: auto;
-    height: 100vh;
+    height: 110vh;
     text-align: center;
 }
 .mid{
     background-color: wheat;
-    height: 80vh;
+    height: 90vh;
 }
 .navbar{
     width: 100%;
@@ -195,7 +195,7 @@ svg {
     }
   }
 .rating{
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
   .comments{
     width: 40%;
@@ -221,9 +221,10 @@ svg {
     box-shadow: 0 5px #666;
     transform: translateY(3px);
   }
-  .selected{
-    background-color: gray;
-  }
+  
   input[type='text']{
     font-size: 1rem;
+  }
+  .submit{
+    margin-top: 10px;
   }

@@ -26,12 +26,17 @@ search.addEventListener('click',(e)=>{
     console.log(e.target.textContent)
     console.log (linktype)
     console.log(customText.value)
-        fetchCustom()
+    fetchCustom()
 }
 )
-submit.addEventListener('submit',(e)=>{
-
+submit.addEventListener('submit',(event)=>{
+    event.preventDefault();
+    let li = document.createElement('li')
+    li.textContent = `${textArea.value}`
+    previousComment.appendChild(li)
+    textArea.value = ''
 })
+
 
 
 //callback functions
@@ -56,9 +61,9 @@ return(fetch("https://gotiny.cc/api",
 console.log(data)
 shortened.value="gotiny.cc/"+data[0].code
 }))}
-
+document.querySelector('.submit').addEventListener('click',e=>e.preventDefault())
 function fetchRandom(){
-    shortened.value=''
+    
 return(
     fetch("https://gotiny.cc/api",
             {
