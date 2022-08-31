@@ -45,10 +45,6 @@ The technologies are:
 <li>CSS3</li>
 <li>Vannila JavaScript</li>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -61,7 +57,6 @@ The spa runs on the browser thus there are no prerequisite installations
 1. Clone the repo
    git@github.com:Kangonga/shorten-url.git
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
