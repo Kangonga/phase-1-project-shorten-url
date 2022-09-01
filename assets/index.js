@@ -33,7 +33,7 @@ submit.addEventListener('click',(event)=>{
     event.preventDefault();
     let li = document.createElement('li')
     li.textContent = `${textArea.value}`
-    previousComment.textContent = textArea.value
+    previousComment.innerHTML = `<li>${textArea.value}</li>`
     textArea.value = ''
 })
 
