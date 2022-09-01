@@ -29,11 +29,11 @@ search.addEventListener('click',(e)=>{
     fetchCustom()
 }
 )
-submit.addEventListener('submit',(event)=>{
+submit.addEventListener('click',(event)=>{
     event.preventDefault();
     let li = document.createElement('li')
     li.textContent = `${textArea.value}`
-    previousComment.appendChild(li)
+    previousComment.textContent = textArea.value
     textArea.value = ''
 })
 
