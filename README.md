@@ -52,11 +52,13 @@ The technologies are:
 These are the steps required to use this project:
 
 ### Prerequisites
-The spa runs on the browser thus there are no prerequisite installations
+The webpage runs on the browser thus there are no prerequisite installations
+
 ### Installation
 
 1. Clone the repo
-   git@github.com:Kangonga/shorten-url.git
+
+** git@github.com:Kangonga/shorten-url.git **
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
