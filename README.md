@@ -37,7 +37,7 @@ The significance of this project is:
 <li>Polish fetch API knowledge garnered.</li>
 </ol>
 
-### Built With
+## Built With
 
 Several technologies have been used in the design and implementation of this website.
 The technologies are:
@@ -47,18 +47,19 @@ The technologies are:
 <li>Vannila JavaScript</li>
 
 <!-- GETTING STARTED -->
-## Getting Started
+### Getting Started
 
 These are the steps required to use this project:
 
 ### Prerequisites
+  
 The webpage runs on the browser thus there are no prerequisite installations
 
 ### Installation
 
 1. Clone the repo
 
-** git@github.com:Kangonga/shorten-url.git **
+git@github.com:Kangonga/shorten-url.git
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
